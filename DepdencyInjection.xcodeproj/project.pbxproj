@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E1B6FADF283AEF0E00F11875 /* Swinject in Frameworks */ = {isa = PBXBuildFile; productRef = E1B6FADE283AEF0E00F11875 /* Swinject */; };
+		E1B6FAE1283B04D300F11875 /* ColorRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1B6FAE0283B04D300F11875 /* ColorRouter.swift */; };
 		E1F135A9283A994F00F6751C /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135A8283A994F00F6751C /* Tests_iOS.swift */; };
 		E1F135AB283A994F00F6751C /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135AA283A994F00F6751C /* Tests_iOSLaunchTests.swift */; };
 		E1F135B5283A994F00F6751C /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135B4283A994F00F6751C /* Tests_macOS.swift */; };
@@ -21,6 +23,14 @@
 		E1F135BF283A994F00F6751C /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F13591283A994D00F6751C /* Persistence.swift */; };
 		E1F135C0283A994F00F6751C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F13592283A994F00F6751C /* Assets.xcassets */; };
 		E1F135C1283A994F00F6751C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E1F13592283A994F00F6751C /* Assets.xcassets */; };
+		E1F135D7283AAF9700F6751C /* ContainerRegister.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135D6283AAF9700F6751C /* ContainerRegister.swift */; };
+		E1F135E0283AB6CF00F6751C /* LocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135DF283AB6CF00F6751C /* LocalDataSource.swift */; };
+		E1F135E6283AB76600F6751C /* ColorEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135E5283AB76600F6751C /* ColorEntity.swift */; };
+		E1F135E8283AB77700F6751C /* RepositoryColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135E7283AB77700F6751C /* RepositoryColor.swift */; };
+		E1F135EA283ABA4B00F6751C /* RepositoryColorImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135E9283ABA4B00F6751C /* RepositoryColorImpl.swift */; };
+		E1F135EC283ACD0700F6751C /* ColorInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135EB283ACD0700F6751C /* ColorInteractor.swift */; };
+		E1F135EE283AE56E00F6751C /* ColorPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135ED283AE56E00F6751C /* ColorPresenter.swift */; };
+		E1F135F2283AE71F00F6751C /* RectangleRandomColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1F135F1283AE71F00F6751C /* RectangleRandomColor.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +51,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E1B6FAE0283B04D300F11875 /* ColorRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorRouter.swift; sourceTree = "<group>"; };
 		E1F1358E283A994D00F6751C /* Shared.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Shared.xcdatamodel; sourceTree = "<group>"; };
 		E1F1358F283A994D00F6751C /* DepdencyInjectionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DepdencyInjectionApp.swift; sourceTree = "<group>"; };
 		E1F13590283A994D00F6751C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -55,6 +66,14 @@
 		E1F135B0283A994F00F6751C /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		E1F135B4283A994F00F6751C /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		E1F135B6283A994F00F6751C /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		E1F135D6283AAF9700F6751C /* ContainerRegister.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerRegister.swift; sourceTree = "<group>"; };
+		E1F135DF283AB6CF00F6751C /* LocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalDataSource.swift; sourceTree = "<group>"; };
+		E1F135E5283AB76600F6751C /* ColorEntity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorEntity.swift; sourceTree = "<group>"; };
+		E1F135E7283AB77700F6751C /* RepositoryColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryColor.swift; sourceTree = "<group>"; };
+		E1F135E9283ABA4B00F6751C /* RepositoryColorImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryColorImpl.swift; sourceTree = "<group>"; };
+		E1F135EB283ACD0700F6751C /* ColorInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorInteractor.swift; sourceTree = "<group>"; };
+		E1F135ED283AE56E00F6751C /* ColorPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorPresenter.swift; sourceTree = "<group>"; };
+		E1F135F1283AE71F00F6751C /* RectangleRandomColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RectangleRandomColor.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +81,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1B6FADF283AEF0E00F11875 /* Swinject in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +112,7 @@
 		E1F13587283A994D00F6751C = {
 			isa = PBXGroup;
 			children = (
+				E1F135D5283AAF7300F6751C /* core */,
 				E1F1358C283A994D00F6751C /* Shared */,
 				E1F1359E283A994F00F6751C /* macOS */,
 				E1F135A7283A994F00F6751C /* Tests iOS */,
@@ -103,6 +124,7 @@
 		E1F1358C283A994D00F6751C /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				E1F135D8283AB0A600F6751C /* color */,
 				E1F1358F283A994D00F6751C /* DepdencyInjectionApp.swift */,
 				E1F13590283A994D00F6751C /* ContentView.swift */,
 				E1F13591283A994D00F6751C /* Persistence.swift */,
@@ -149,6 +171,109 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		E1F135D5283AAF7300F6751C /* core */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135D6283AAF9700F6751C /* ContainerRegister.swift */,
+			);
+			path = core;
+			sourceTree = "<group>";
+		};
+		E1F135D8283AB0A600F6751C /* color */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135DE283AB6B100F6751C /* View */,
+				E1F135DD283AB69E00F6751C /* Interactor */,
+				E1F135DC283AB68900F6751C /* Entity */,
+				E1F135DB283AB67F00F6751C /* Data */,
+				E1F135DA283AB67100F6751C /* Router */,
+				E1F135D9283AB63200F6751C /* Presenter */,
+			);
+			path = color;
+			sourceTree = "<group>";
+		};
+		E1F135D9283AB63200F6751C /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135ED283AE56E00F6751C /* ColorPresenter.swift */,
+			);
+			path = Presenter;
+			sourceTree = "<group>";
+		};
+		E1F135DA283AB67100F6751C /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				E1B6FAE0283B04D300F11875 /* ColorRouter.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		E1F135DB283AB67F00F6751C /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135E3283AB70300F6751C /* DataSourceProvider */,
+				E1F135E2283AB6E000F6751C /* model */,
+				E1F135E1283AB6D600F6751C /* RepositoryI */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E1F135DC283AB68900F6751C /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135E4283AB73F00F6751C /* Repository */,
+				E1F135E5283AB76600F6751C /* ColorEntity.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		E1F135DD283AB69E00F6751C /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135EB283ACD0700F6751C /* ColorInteractor.swift */,
+			);
+			path = Interactor;
+			sourceTree = "<group>";
+		};
+		E1F135DE283AB6B100F6751C /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135F1283AE71F00F6751C /* RectangleRandomColor.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		E1F135E1283AB6D600F6751C /* RepositoryI */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135E9283ABA4B00F6751C /* RepositoryColorImpl.swift */,
+			);
+			path = RepositoryI;
+			sourceTree = "<group>";
+		};
+		E1F135E2283AB6E000F6751C /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		E1F135E3283AB70300F6751C /* DataSourceProvider */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135DF283AB6CF00F6751C /* LocalDataSource.swift */,
+			);
+			path = DataSourceProvider;
+			sourceTree = "<group>";
+		};
+		E1F135E4283AB73F00F6751C /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				E1F135E7283AB77700F6751C /* RepositoryColor.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -165,6 +290,9 @@
 			dependencies = (
 			);
 			name = "DepdencyInjection (iOS)";
+			packageProductDependencies = (
+				E1B6FADE283AEF0E00F11875 /* Swinject */,
+			);
 			productName = "DepdencyInjection (iOS)";
 			productReference = E1F13597283A994F00F6751C /* DepdencyInjection.app */;
 			productType = "com.apple.product-type.application";
@@ -257,6 +385,9 @@
 				Base,
 			);
 			mainGroup = E1F13587283A994D00F6751C;
+			packageReferences = (
+				E1B6FADD283AEF0E00F11875 /* XCRemoteSwiftPackageReference "Swinject" */,
+			);
 			productRefGroup = E1F13598283A994F00F6751C /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -307,10 +438,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E1F135EE283AE56E00F6751C /* ColorPresenter.swift in Sources */,
+				E1F135EC283ACD0700F6751C /* ColorInteractor.swift in Sources */,
+				E1F135F2283AE71F00F6751C /* RectangleRandomColor.swift in Sources */,
+				E1F135E0283AB6CF00F6751C /* LocalDataSource.swift in Sources */,
 				E1F135B8283A994F00F6751C /* DepdencyInjection.xcdatamodeld in Sources */,
 				E1F135BE283A994F00F6751C /* Persistence.swift in Sources */,
+				E1F135D7283AAF9700F6751C /* ContainerRegister.swift in Sources */,
+				E1B6FAE1283B04D300F11875 /* ColorRouter.swift in Sources */,
 				E1F135BA283A994F00F6751C /* DepdencyInjectionApp.swift in Sources */,
+				E1F135EA283ABA4B00F6751C /* RepositoryColorImpl.swift in Sources */,
 				E1F135BC283A994F00F6751C /* ContentView.swift in Sources */,
+				E1F135E6283AB76600F6751C /* ColorEntity.swift in Sources */,
+				E1F135E8283AB77700F6751C /* RepositoryColor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -713,6 +853,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		E1B6FADD283AEF0E00F11875 /* XCRemoteSwiftPackageReference "Swinject" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Swinject/Swinject";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		E1B6FADE283AEF0E00F11875 /* Swinject */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = E1B6FADD283AEF0E00F11875 /* XCRemoteSwiftPackageReference "Swinject" */;
+			productName = Swinject;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		E1F1358D283A994D00F6751C /* DepdencyInjection.xcdatamodeld */ = {
