@@ -41,7 +41,3 @@ var  container : Container = {
     
     return container
 }()
-
-
-//ColorProviding -abs class into youtube video
-//ColorProvider -implementation class into youtube video
